@@ -32,7 +32,6 @@ a {
 
 .superinfo {
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px calc((100% - 960px) / 2 );
