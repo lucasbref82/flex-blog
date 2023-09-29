@@ -19,19 +19,23 @@
         </div>
     </div>
     <div class="header-bg">
-        <div class="header-logo">
-            <a href="#">FlexBlog</a>
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#preco">Preço</a></li>
-                <li><a href="#qualidade">Qualidade</a></li>
-            </ul>
+        <div class="header">
+            <div class="header-logo">
+                <a href="#">FlexBlog</a>
+            </div>
+            <div class="header-nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#preco">Preço</a></li>
+                    <li><a href="#qualidade">Qualidade</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <h1>Novos valores e<br> propriedade do CSS</h1>
+    <div class="propriedade">
+        <h1>Novos valores e<br> propriedades do CSS</h1>
+    </div>
     <div class="sobre" id="sobre">
         <div class="sobre-info">
             <h1>Sobre</h1>
@@ -48,56 +52,60 @@
     <div class="produtos" id="produtos">
         <h1>Produtos</h1>
         <div class="produtos-container">
-            <div class="produtos-item-purple">
+            <div class="produtos-item purple">
                 <h2>Purple</h2>
                 <img src="img/produtos1.jpg" alt="Produtos 1">
             </div>
-            <div class="produtos-item-pink">
+            <div class="produtos-item pink">
                 <h2>Pink</h2>
                 <img src="img/produtos2.jpg" alt="Produtos 2">
             </div>
-            <div class="produtos-item-blue">
+            <div class="produtos-item blue">
                 <h2>Blue</h2>
                 <img src="img/produtos3.jpg" alt="Produtos 3">
             </div>
         </div>
     </div>
-    <div class="preco" id="preco">
-        <div class="preco-item">
-            <h2>Cobre</h2>
-            <span><sup>R$</sup>19</span>
-            <ul>
-                <li>Planos Ilimitados</li>
-                <li>Acesso Restrito</li>
-                <li>Conteúdo Secreto</li>
-                <li>Suporte 24h</li>
-            </ul>
-        </div>
-        <div class="preco-item">
-            <h2>Prata</h2>
-            <span><sup>R$</sup>39</span>
-            <ul>
-                <li>Planos Ilimitados</li>
-                <li>Acesso Restrito</li>
-                <li>Conteúdo Secreto</li>
-                <li>Suporte 24h</li>
-                <li>Compra Exclusiva</li>
-            </ul>
-        </div>
-        <div class="preco-item">
-            <h2>Ouro</h2>
-            <span><sup>R$</sup>19</span>
-            <ul>
-                <li>Planos Ilimitados</li>
-                <li>Acesso Restrito</li>
-                <li>Conteúdo Secreto</li>
-                <li>Suporte 24h</li>
-                <li>Compra Exclusiva</li>
-                <li>Download dos Itens</li>
-            </ul>
-        </div>
-    </div>
-    <div class="qualidade" id="qualidate">
+	<div class="preco" id="preco">
+		<div class="preco-item">
+			<h2>Cobre</h2>
+			<span><sup>R$</sup>19</span>
+			<ul>
+				<li>Planos Ilimitados</li>
+				<li>Acesso Restrito</li>
+				<li>Conteúdo Secreto</li>
+				<li>Suporte 24h</li>
+			</ul>
+			<a href="#">Comprar</a>
+		</div>
+		
+		<div class="preco-item">
+			<h2>Prata</h2>
+			<span><sup>R$</sup>39</span>
+			<ul>
+				<li>Planos Ilimitados</li>
+				<li>Acesso Restrito</li>
+				<li>Conteúdo Secreto</li>
+				<li>Suporte 24h</li>
+				<li>Compra Exclusiva</li>
+			</ul>
+			<a href="#">Comprar</a>
+		</div>
+		<div class="preco-item">
+			<h2>Ouro</h2>
+			<span><sup>R$</sup>79</span>
+			<ul>
+				<li>Planos Ilimitados</li>
+				<li>Acesso Restrito</li>
+				<li>Conteúdo Secreto</li>
+				<li>Suporte 24h</li>
+				<li>Compra Exclusiva</li>
+				<li>Download dos Itens</li>
+			</ul>
+			<a href="#">Comprar</a>
+		</div>
+	</div>
+    <div class="qualidade" id="qualidade">
         <div class="qualidade-item">
             <h2>Inteligente</h2>
             <p>Mussum Ipsum, cacilds vidis litro abertis. Morbi viverra placerat justo, vel pharetra turpis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Negão é teu passadis, eu sou faxa pretis.</p>
@@ -123,15 +131,16 @@
             <p>Cevadis im ampola pa arma uma pindureta. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Diuretics paradis num copo é motivis de denguis.</p>
         </div>
     </div>
-    <div class="newsletter">
-        <div class="newsletter-info">
-            <h1>Newsletter</h1>
-            <form>
-                <input type="text" placeholder="Seu e-mail">
-                <button type="submit">Assinar</button>
-            </form>
-        </div>
-    </div>
+	<div class="newsletter">
+		<div class="newsletter-info">
+			<h1>Newsletter</h1>
+			<p>assine e fique por dentro das novidades</p>
+		</div>
+		<form class="newsletter-form">
+			<input type="text" placeholder="Seu e-mail">
+			<button type="submit">Assinar</button>
+		</form>
+	</div>
     <div class="footer">
         <p>FlexBlog © Todos os direitos reservados.</p>
     </div>
